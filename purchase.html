@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Buy Now</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Checkout Page</h1>
+  <hr>
+
+  <!-- Product Details -->
+  <h2>Product Details</h2>
+  <p><b>Product:</b> Pro Bass Headphone</p>
+  <p><b>Price:</b> ₹2,499</p>
+  <p><b>Quantity:</b> 1</p>
+  <hr>
+
+  <!-- Delivery Address -->
+  <h2>Delivery Address</h2>
+  <form>
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Mobile Number:</label><br>
+    <input type="tel" name="mobile" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="4" cols="40" required></textarea><br><br>
+
+    <label>Pincode:</label><br>
+    <input type="text" name="pincode" required><br><br>
+
+    <label>City:</label><br>
+    <input type="text" name="city" required><br><br>
+
+    <label>State:</label><br>
+    <input type="text" name="state" required><br><br>
+    <hr>
+
+    <!-- Payment Options -->
+    <h2>Payment Method</h2>
+    <input type="radio" name="payment" value="cod" required> Cash on Delivery<br>
+    <input type="radio" name="payment" value="card"> Credit/Debit Card<br>
+    <input type="radio" name="payment" value="upi"> UPI (Google Pay/PhonePe/Paytm)<br>
+    <input type="radio" name="payment" value="netbanking"> Net Banking<br>
+    <br>
+    <hr>
+
+    <!-- Place Order -->
+    <button type="submit">Place Order</button>
+  </form>
+
+</body>
+</html>
