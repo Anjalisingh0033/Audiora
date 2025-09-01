@@ -1,0 +1,84 @@
+ /* purchase page css */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+h2 {
+  color: #111;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Form Container */
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Labels and Inputs */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border: 1px solid #00aaff;
+}
+
+/* Payment Options */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.payment-options {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0088cc;
+}
